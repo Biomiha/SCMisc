@@ -1,0 +1,17 @@
+Package: SCMisc
+Type: Package
+Title: Utilities for single cell profiling technologies
+Version: 0.1.0
+Authors@R: person("Miha", "Kosmac", email = "biomiha@gmail.com",
+  role = c("aut", "cre"))
+Maintainer: Miha Kosmac <biomiha@gmail.com>
+Description: Utilities that aid the analysis of single cell data, e.g.
+    single cell RNA sequencing, flow or mass cytometry data. Built upon
+    flowCore and the SingleCellExperiment class. 
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    flowCore (>= 1.0),
+    foreach (>= 1.4)
+RoxygenNote: 7.0.2
